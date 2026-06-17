@@ -97,5 +97,3 @@ done < /path/to/sota_tracker/vot2022_stb_ws/sequences/list.txt
   export PYTHON_BIN="/absolute/path/to/python"
   ```
 - **Нестабильный MPS** — если трекер падает на Apple Silicon, переключись на `--device cpu`.
-- **`accuracy = 0.684`** в отчёте — это среднее перекрытие bbox (IoU), не accuracy классификации.
-- **`unsupervised`** режим — оценка без переинициализации после срыва трекера.
